@@ -1,20 +1,10 @@
-# Entornos virtuales (el nombre más común es venv o env)
-venv/
-env/
-ENV/
-.env/
-virtualenv/
-
-# Extensiones de archivos de entorno
-.venv/
-bin/
-lib/
-share/
-Include/
-
-.venv/
 __pycache__/
 *.pyc
-logs/*.log
-*.csv
-*.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+logs/
+*.log
+.ipynb_checkpoints/
+build/
+dist/
