@@ -24,11 +24,11 @@ class EntrenadorModelo:
     def __init__(self):
         self.config_entrenador_modelo = ConfigEntrenadorModelo()
 
-    def iniciar_entrenador_modelo(self, entrenamiento_array, testeo_array):
+    def iniciar_entrenador_modelo(self, train_array, test_array):
         try:
             X_train, y_train, X_test, y_test = (
-                entrenamiento_array[:, :-1], entrenamiento_array[:, -1],
-                testeo_array[:, :-1], testeo_array[:, -1]
+                train_array[:, :-1], train_array[:, -1],
+                test_array[:, :-1], test_array[:, -1]
             )
 
         modelos = {
