@@ -1,4 +1,3 @@
-from ejjjjj import test_data_path
 from src.components.data_transformation import TransformacionDatos
 from src.components.entrenamiento_modelo import EntrenadorModelo
 

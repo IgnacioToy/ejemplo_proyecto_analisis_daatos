@@ -1,4 +1,3 @@
-from ejjjjj import data_transformation
 import os
 import sys
 from src.exception import ExcepcionPersonalizada
@@ -8,7 +7,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 
-from src.components.data_transformation import TransformacionDatos
+from src.components.transformacion_datos import TransformacionDatos
 from src.components.model_trainer import EntrenadorModelo
 
 @dataclass

@@ -7,6 +7,6 @@ catboost
 xgboost
 Flask
 dill
-
+logger
 
 -e .

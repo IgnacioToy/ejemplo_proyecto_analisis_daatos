@@ -9,7 +9,7 @@ from sklearn.ensemble import (AdaBoostRegressor, GradientBoostingRegressor, Rand
 from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 
-from xgboost import XGBRFRegressor
+from xgboost import XGBRegressor
 
 from src.exception import ExcepcionPersonalizada
 from src.logger import logging
@@ -32,13 +32,13 @@ class EntrenadorModelo:
             )
 
         modelos = {
-            'Random Forest': RandomForestRegressor(),
-            'Decision Tree': DecisionTreeRegressor(),
-            'Gradient Boosting': GradientBoostingRegressor(),
-            'Linear Regression': LinearRegression(),
-            'XGBRegressor': XGBRFRegressor(),
-            'CatBoosting Regressor': CatBoostRegressor(verbose=False),
-            'AdaBost Regressor': AdaBoostRegressor(),
+            "Random Forest": RandomForestRegressor(),
+            "Decision Tree": DecisionTreeRegressor(),
+            "Gradient Boosting": GradientBoostingRegressor(),
+            "Linear Regression": LinearRegression(),
+            "XGBRegressor": XGBRegressor(),
+            "CatBoosting Regressor": CatBoostRegressor(verbose=False),
+            "AdaBoost Regressor": AdaBoostRegressor(),
         }
 
         parametros = {
